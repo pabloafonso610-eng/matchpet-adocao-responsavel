@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitação de Adoção | MatchPet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" class="logo">
+        <span>MatchPet</span>
+      </a>
+
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="pets.html">Pets</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container form-wrapper">
+      <h1>Solicitação de adoção</h1>
+      <p class="page-subtitle">
+        Esta etapa ajuda a garantir um processo consciente e seguro.
+      </p>
+
+      <div class="warning-box small">
+        <p>
+          A adoção depende de análise do perfil do interessado e da aprovação da ONG ou tutor responsável.
+        </p>
+      </div>
+
+      <form class="form-grid">
+        <input type="text" placeholder="Nome do pet desejado" class="full" required>
+        <textarea rows="5" class="full" placeholder="Por que você quer adotar este pet?" required></textarea>
+        <textarea rows="5" class="full" placeholder="Como será a rotina, os cuidados e a adaptação do animal na sua casa?" required></textarea>
+
+        <div class="upload-box full">
+          <label>Documento com foto</label>
+          <input type="file" required>
+        </div>
+
+        <div class="upload-box full">
+          <label>Comprovante de residência</label>
+          <input type="file" required>
+        </div>
+
+        <label class="checkbox full">
+          <input type="checkbox" required>
+          <span>Declaro que entendo a importância da adoção responsável e autorizo a análise dos dados enviados.</span>
+        </label>
+
+        <button type="submit" class="btn btn-full">Enviar solicitação</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

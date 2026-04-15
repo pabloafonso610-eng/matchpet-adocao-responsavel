@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro | MatchPet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" class="logo">
+        <span>MatchPet</span>
+      </a>
+
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="pets.html">Pets</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container form-wrapper">
+      <h1>Cadastro do adotante</h1>
+      <p class="page-subtitle">
+        Preencha seus dados para iniciar o processo de adoção responsável.
+      </p>
+
+      <form class="form-grid">
+        <input type="text" placeholder="Nome completo" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="tel" placeholder="Telefone" required>
+        <input type="text" placeholder="CPF" required>
+        <input type="text" placeholder="Cidade" required>
+        <input type="text" placeholder="Estado" required>
+        <input type="text" placeholder="Endereço completo" class="full" required>
+
+        <select required>
+          <option value="">Tipo de moradia</option>
+          <option>Casa</option>
+          <option>Apartamento</option>
+        </select>
+
+        <select required>
+          <option value="">Tem quintal ou área segura?</option>
+          <option>Sim</option>
+          <option>Não</option>
+        </select>
+
+        <select required>
+          <option value="">Já teve pet antes?</option>
+          <option>Sim</option>
+          <option>Não</option>
+        </select>
+
+        <select required>
+          <option value="">Mora com crianças?</option>
+          <option>Sim</option>
+          <option>Não</option>
+        </select>
+
+        <textarea class="full" rows="5" placeholder="Fale um pouco sobre sua rotina e disponibilidade para cuidar de um pet" required></textarea>
+
+        <a href="adocao.html" class="btn btn-full">Continuar</a>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

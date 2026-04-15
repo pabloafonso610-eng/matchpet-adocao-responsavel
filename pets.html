@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets para adoção | MatchPet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" class="logo">
+        <span>MatchPet</span>
+      </a>
+
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="pets.html">Pets</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Pets disponíveis</h1>
+      <p class="page-subtitle">
+        Encontre um cão compatível com sua rotina, espaço e estilo de vida.
+      </p>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="pequeno">Pequeno</button>
+        <button class="filter-btn" data-filter="medio">Médio</button>
+        <button class="filter-btn" data-filter="grande">Grande</button>
+      </div>
+
+      <div class="cards three" id="pets-grid">
+        <article class="card pet-card" data-size="medio">
+          <img src="https://2.bp.blogspot.com/-Kwtq92u-tu0/UI8RgQEmbBI/AAAAAAAAE_Q/_-XgqM2_AFk/s1600/tumblr_mcnwkfvqqt1qb6g3eo6_500.jpeg" alt="Thor">
+          <h3>Thor</h3>
+          <p>2 anos • Médio porte • Belém</p>
+          <span class="tag">Calmo • Vacinado • Castrado</span>
+          <div class="actions">
+            <a href="pet.html" class="btn">Ver perfil</a>
+          </div>
+        </article>
+
+        <article class="card pet-card" data-size="pequeno">
+          <img src="https://www.pedigree.com.br/sites/g/files/fnmzdf2401/files/2024-09/nomes-para-cachorra-femea-03.jpg" alt="Milly">
+          <h3>Milly</h3>
+          <p>1 ano • Pequeno porte • Castanhal</p>
+          <span class="tag">Brincalhona • Vacinada</span>
+          <div class="actions">
+            <a href="pet.html" class="btn">Ver perfil</a>
+          </div>
+        </article>
+
+        <article class="card pet-card" data-size="grande">
+          <img src="https://fotos.amomeupet.org/uploads/fotos/0x800_1568662224_5d7fe2d09bccd_hd.jpeg" alt="Caramelo">
+          <h3>Caramelo</h3>
+          <p>3 anos • Grande porte • Ananindeua</p>
+          <span class="tag">Energético • Castrado</span>
+          <div class="actions">
+            <a href="pet.html" class="btn">Ver perfil</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
